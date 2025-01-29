@@ -7,4 +7,4 @@ class HomeShopPageData:
     """
 
     # Define a variable for test data
-    test_blackberry_data = "Blackberry"
+    test_blackberry_data = {"product_brand":"Blackberry"}

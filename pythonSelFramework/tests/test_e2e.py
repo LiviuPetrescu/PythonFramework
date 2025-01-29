@@ -43,7 +43,7 @@ class TestOne(BaseClass):
         for title in product_title:
             i = i + 1
             card_text = title.text
-            if card_text == HomeShopPageData.test_blackberry_data:
+            if card_text == HomeShopPageData.test_blackberry_data["product_brand"]:
                 check_out_page.get_card_footer()[i].click()
 
         # Click on the 'Checkout' button
@@ -53,10 +53,10 @@ class TestOne(BaseClass):
         confirm_page = check_out_page.get_check_out()
 
         # Insert delivery location
-        check_out_page.get_delivery_location().send_keys(CheckoutPageData.country_partial_data)
+        check_out_page.get_delivery_location().send_keys(CheckoutPageData.country_partial_data["partial_text"])
 
         # Wait for countries to appear with EXPLICIT wait
-        self.verify_link_presence(CheckoutPageData.country_name)
+        self.verify_link_presence(CheckoutPageData.country_name["country_name"])
 
         # Get all the suggestions and click on India
         check_out_page.get_location().click()
@@ -74,4 +74,4 @@ class TestOne(BaseClass):
             search_text = element.text
 
         # Verify that message "Success! Thank you!" is displayed on the Checkout page.
-        assert CheckoutPageData.confirmation_text in search_text
+        assert CheckoutPageData.confirmation_text["confirmation_text"] in search_text
