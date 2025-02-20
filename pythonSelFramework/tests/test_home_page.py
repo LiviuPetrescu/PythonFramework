@@ -4,6 +4,7 @@ from test_data.home_page_data import HomePageData
 from utilities.BaseClass import BaseClass
 
 
+
 class TestHomePage(BaseClass):
     """
         TestHomePage class contains tests related to the form submission on the home page.

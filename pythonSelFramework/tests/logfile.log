@@ -145,3 +145,9 @@
 2025-01-27 16:15:54,327: INFO: test_form_submission: First name is: Livia
 2025-01-27 16:15:54,496: INFO: test_form_submission: Email is: petrescu@livia
 2025-01-27 16:15:54,496: INFO: test_form_submission: Email is: petrescu@livia
+2025-02-20 15:43:24,437: INFO: test_form_submission: First name is: Liviu
+2025-02-20 15:43:24,604: INFO: test_form_submission: Email is: petrescu@liviu
+2025-02-20 15:43:25,086: INFO: test_form_submission: First name is: Livia
+2025-02-20 15:43:25,086: INFO: test_form_submission: First name is: Livia
+2025-02-20 15:43:25,248: INFO: test_form_submission: Email is: petrescu@livia
+2025-02-20 15:43:25,248: INFO: test_form_submission: Email is: petrescu@livia

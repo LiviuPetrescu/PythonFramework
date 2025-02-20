@@ -1,9 +1,9 @@
 import pytest
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
+from webdriver_manager.chrome import ChromeDriverManager
 
 global driver
-
 
 """
 Test Setup and Reporting Utilities for Selenium WebDriver Tests.
@@ -31,7 +31,7 @@ def setup(request):
     global driver
 
     # Chrome
-    service_object = Service("C:/Users/Hp/chromedriver-win64/chromedriver.exe")
+    service_object = Service(ChromeDriverManager().install())
     driver = webdriver.Chrome(service=service_object)
 
     # Define Implicit wait
@@ -47,35 +47,70 @@ def setup(request):
     driver.close()
 
 
+# @pytest.hookimpl(hookwrapper=True)
+# def pytest_runtest_makereport(item):
+#     """
+#     Extends the PyTest Plugin to take and embed screenshot in html report, whenever test fails.
+#     """
+#
+#     pytest_html = item.config.pluginmanager.getplugin("html")
+#     outcome = yield
+#     report = outcome.get_result()
+#     extra = getattr(report, "extra", [])
+#
+#     if report.when == "call" or report.when == "setup":
+#         xfail = hasattr(report, "wasxfail")
+#         if (report.skipped and xfail) or (report.failed and not xfail):
+#             file_name = report.nodeid.replace("::", "_") + ".jpg"
+#             _capture_screenshot(file_name)
+#             if file_name:
+#                 html = (
+#                         '<div><img src="%s" alt="screenshot" style="width:304px;height:228px;" '
+#                         'onclick="window.open(this.src)" align="right"/></div>' % file_name
+#                 )
+#                 extra.append(pytest_html.extras.html(html))
+#         report.extra = extra
+#
+#
+# def _capture_screenshot(name):
+#     """
+#     This method captures a screenshot of the current state of the browser and saves it with the specified name.
+#     :param name: String
+#     :return: None
+#     """
+#     driver.get_screenshot_as_file(name)
+
+
 @pytest.hookimpl(hookwrapper=True)
 def pytest_runtest_makereport(item):
     """
-    Extends the PyTest Plugin to take and embed screenshot in html report, whenever test fails.
+    Extends the PyTest Plugin to take and embed a screenshot in the HTML report whenever a test fails.
     """
-
     pytest_html = item.config.pluginmanager.getplugin("html")
     outcome = yield
     report = outcome.get_result()
     extra = getattr(report, "extra", [])
 
-    if report.when == "call" or report.when == "setup":
+    if report.when in ["call", "setup"]:
         xfail = hasattr(report, "wasxfail")
         if (report.skipped and xfail) or (report.failed and not xfail):
-            file_name = report.nodeid.replace("::", "_") + ".jpg"
-            _capture_screenshot(file_name)
-            if file_name:
+            driver = item.funcargs.get("driver")  # ✅ Access the driver from test fixtures
+            if driver:
+                file_name = report.nodeid.replace("::", "_") + ".jpg"
+                _capture_screenshot(driver, file_name)  # ✅ Pass driver and file_name
                 html = (
-                    '<div><img src="%s" alt="screenshot" style="width:304px;height:228px;" '
-                    'onclick="window.open(this.src)" align="right"/></div>' % file_name
+                    f'<div><img src="{file_name}" alt="screenshot" style="width:304px;height:228px;" '
+                    'onclick="window.open(this.src)" align="right"/></div>'
                 )
                 extra.append(pytest_html.extras.html(html))
         report.extra = extra
 
 
-def _capture_screenshot(name):
+def _capture_screenshot(driver, name):
     """
-    This method captures a screenshot of the current state of the browser and saves it with the specified name.
-    :param name: String
+    Captures a screenshot of the current browser state and saves it with the specified name.
+    :param driver: WebDriver instance
+    :param name: String (filename)
     :return: None
     """
     driver.get_screenshot_as_file(name)
