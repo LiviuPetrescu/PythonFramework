@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="91fb8740-9775-4b15-835f-b3e1849d7563" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2pCWg4V2ndNyDEAzfWkw2qWPZk8" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python tests.pytest for test_demo1.test_cross_browser.executor": "Run",
+    "Python tests.pytest for test_demo2.test_fixture_demo.executor": "Run",
+    "Python tests.pytest for test_demo2.test_third_program.executor": "Run",
+    "Python tests.pytest for test_fixture_data.TestExample2.executor": "Run",
+    "Python tests.pytest for test_fixture_demo.TestExample.executor": "Run",
+    "Python tests.pytest for test_fixture_demo.test_fixture_demo.executor": "Run",
+    "Python tests.pytest for test_logging.test_logging.executor": "Run",
+    "Python tests.pytest in test_demo1.py.executor": "Run",
+    "Python tests.pytest in test_demo2.py.executor": "Run",
+    "Python tests.pytest in test_fixture_data.py.executor": "Run",
+    "Python.Coursera_API.executor": "Run",
+    "Python.Coursera_C1.executor": "Run",
+    "Python.Coursera_JSON.executor": "Run",
+    "Python.Coursera_SQLite_Many_to_Many.executor": "Run",
+    "Python.Coursera_SQLite_Multiple_Tables.executor": "Run",
+    "Python.Coursera_SQLite_script.executor": "Run",
+    "Python.Coursera_Web.executor": "Run",
+    "Python.Coursera_XML_URL.executor": "Run",
+    "Python.Exercises.executor": "Run",
+    "Python.First_Test.executor": "Run",
+    "Python.Numere_prime.executor": "Run",
+    "Python.Selenium.executor": "Run",
+    "Python.Static_and_dinamic_dropdowns.executor": "Run",
+    "Python.actions_demo.executor": "Run",
+    "Python.alerts.executor": "Run",
+    "Python.argfile.executor": "Run",
+    "Python.argtest.executor": "Run",
+    "Python.child_window.executor": "Run",
+    "Python.chrome_options.executor": "Run",
+    "Python.clasa.executor": "Run",
+    "Python.copytildone1.executor": "Run",
+    "Python.delete.executor": "Run",
+    "Python.dictionare.executor": "Run",
+    "Python.e2e_test.executor": "Run",
+    "Python.exceptions_python.executor": "Run",
+    "Python.file_read.executor": "Run",
+    "Python.file_write.executor": "Run",
+    "Python.frames_demo.executor": "Run",
+    "Python.geodump.executor": "Run",
+    "Python.geoload.executor": "Run",
+    "Python.locators.executor": "Run",
+    "Python.locators_extensions.executor": "Run",
+    "Python.miscellanous.executor": "Run",
+    "Python.party1.executor": "Run",
+    "Python.party2.executor": "Run",
+    "Python.party3.executor": "Run",
+    "Python.party4.executor": "Run",
+    "Python.party5.executor": "Run",
+    "Python.party6.executor": "Run",
+    "Python.party7.executor": "Run",
+    "Python.pynative.executor": "Run",
+    "Python.pynative_functions.executor": "Run",
+    "Python.recapitulare.executor": "Run",
+    "Python.search1.executor": "Run",
+    "Python.search2.executor": "Run",
+    "Python.socket1.executor": "Run",
+    "Python.soft.executor": "Run",
+    "Python.spdump.executor": "Run",
+    "Python.spider.executor": "Run",
+    "Python.spjson.executor": "Run",
+    "Python.sprank.executor": "Run",
+    "Python.spreset.executor": "Run",
+    "Python.tema2.executor": "Run",
+    "Python.tema3.executor": "Run",
+    "Python.tracks.executor": "Run",
+    "Python.ui_controls.executor": "Run",
+    "Python.waitDemo.executor": "Run",
+    "Python.web_tables.executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/Hp/PycharmProjects/git_projects/pythonPlayground",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Hp\PycharmProjects\pythonProject\Python_Scripts\Coursera_PFE_Scripts" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.alerts">
+    <configuration name="Coursera_SQLite_Many_to_Many" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python_Scripts/Coursera_PFE_Scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python_Scripts/Coursera_PFE_Scripts/Coursera_SQLite_Many_to_Many.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Coursera_SQLite_Multiple_Tables" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python_Scripts/Coursera_PFE_Scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python_Scripts/Coursera_PFE_Scripts/Coursera_SQLite_Multiple_Tables.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Coursera_SQLite_script" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python_Scripts/Coursera_PFE_Scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python_Scripts/Coursera_PFE_Scripts/Coursera_SQLite_script.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="actions_demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python_Scripts/Coursera_Selenium" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python_Scripts/Coursera_Selenium/actions_demo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="alerts" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python_Scripts/Coursera_Selenium" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python_Scripts/Coursera_Selenium/alerts.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test_demo2.py" type="tests" factoryName="py.test" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.11 (pythonProject)" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;C:\\Users\\Hp\\PycharmProjects\\pythonProject\\pyTestsDemo\\test_demo2.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.Coursera_SQLite_Many_to_Many" />
+      <item itemvalue="Python.Coursera_SQLite_Multiple_Tables" />
+      <item itemvalue="Python.Coursera_SQLite_script" />
+      <item itemvalue="Python.actions_demo" />
+      <item itemvalue="Python.alerts" />
+      <item itemvalue="Python tests.pytest in test_demo2.py" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.alerts" />
+        <item itemvalue="Python.actions_demo" />
+        <item itemvalue="Python.Coursera_SQLite_script" />
+        <item itemvalue="Python.Coursera_SQLite_Multiple_Tables" />
+        <item itemvalue="Python.Coursera_SQLite_Many_to_Many" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-d7ad00fb9fc3-c546a90a8094-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.23726.102" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="91fb8740-9775-4b15-835f-b3e1849d7563" name="Changes" comment="" />
+      <created>1732270647268</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1732270647268</updated>
+    </task>
+    <servers />
+  </component>
+</project>
