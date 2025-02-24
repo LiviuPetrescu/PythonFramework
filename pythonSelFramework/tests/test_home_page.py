@@ -5,6 +5,7 @@ from utilities.BaseClass import BaseClass
 
 
 
+
 class TestHomePage(BaseClass):
     """
         TestHomePage class contains tests related to the form submission on the home page.
@@ -57,6 +58,9 @@ class TestHomePage(BaseClass):
 
         # Verifies that the success message is displayed after form submission, indicating the form was submitted correctly.
         assert "Success!" in alert_text
+       
+
+
 
     @pytest.fixture(params=HomePageData.test_HomePage_data)
     def get_data(self, request):

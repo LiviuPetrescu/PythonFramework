@@ -151,3 +151,21 @@
 2025-02-20 15:43:25,086: INFO: test_form_submission: First name is: Livia
 2025-02-20 15:43:25,248: INFO: test_form_submission: Email is: petrescu@livia
 2025-02-20 15:43:25,248: INFO: test_form_submission: Email is: petrescu@livia
+2025-02-24 10:54:31,626: INFO: test_form_submission: First name is: Liviu
+2025-02-24 10:54:31,802: INFO: test_form_submission: Email is: petrescu@liviu
+2025-02-24 10:54:32,360: INFO: test_form_submission: First name is: Livia
+2025-02-24 10:54:32,360: INFO: test_form_submission: First name is: Livia
+2025-02-24 10:54:32,616: INFO: test_form_submission: Email is: petrescu@livia
+2025-02-24 10:54:32,616: INFO: test_form_submission: Email is: petrescu@livia
+2025-02-24 10:57:25,943: INFO: test_form_submission: First name is: Liviu
+2025-02-24 10:57:26,124: INFO: test_form_submission: Email is: petrescu@liviu
+2025-02-24 10:57:36,690: INFO: test_form_submission: First name is: Livia
+2025-02-24 10:57:36,690: INFO: test_form_submission: First name is: Livia
+2025-02-24 10:57:37,010: INFO: test_form_submission: Email is: petrescu@livia
+2025-02-24 10:57:37,010: INFO: test_form_submission: Email is: petrescu@livia
+2025-02-24 10:58:09,736: INFO: test_form_submission: First name is: Liviu
+2025-02-24 10:58:09,890: INFO: test_form_submission: Email is: petrescu@liviu
+2025-02-24 10:58:20,402: INFO: test_form_submission: First name is: Livia
+2025-02-24 10:58:20,402: INFO: test_form_submission: First name is: Livia
+2025-02-24 10:58:20,564: INFO: test_form_submission: Email is: petrescu@livia
+2025-02-24 10:58:20,564: INFO: test_form_submission: Email is: petrescu@livia
